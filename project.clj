@@ -13,6 +13,5 @@
 
   :plugins [[lein-codox "0.10.7"]]
 
-  :codox {:src-dir-uri               "https://github.com/bpindelski/maximator/blob/v0.2.0/"
-          :src-linenum-anchor-prefix "L"
-          :defaults                  {:doc/format :markdown}})
+  :codox {:source-uri "https://github.com/bpindelski/maximator/blob/{version}/{filepath}#L{line}"
+          :metadata   {:doc/format :markdown}})
