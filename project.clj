@@ -1,4 +1,4 @@
-(defproject bpindelski/maximator "0.2.0-SNAPSHOT"
+(defproject bpindelski/maximator "0.2.0"
 
   :description "Thin Clojure wrapper around MaxMind GeoIP2 for IP geolocalization"
   :url "https://github.com/bpindelski/maximator"
